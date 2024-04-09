@@ -1,0 +1,214 @@
+/* utilizando fontes especificas */
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+:root {
+    --roxo-gamifica: #47208b;
+    --laranja-gamifica: #ed7a08;
+}
+
+/* Reset de CSS -  Limpa configurações padrão que atrapalham */
+* {
+    margin: 0;
+    /* padding = é uma margem pra fora */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+
+    /* isso da uma margem em torno do elemento */
+    /*margin: 0px 30px ; o da esquerda é vertical eo da direita horizontal */
+    /* margin: 10px 20px 30px 40px; 10 = pra cima , 20 = direita , 30 = pra baixo , 40 = esquerda */
+    margin: 0 auto;
+}
+
+.banner {
+    /* vh -> Porcetagem da altura da viewport (janela) */
+    height: 100vh;
+    /* 1 bgi e 2 (ctrl) + (espace) = aparecer todas as opçoes do que colocar na url  */
+    background-image: linear-gradient(90deg, rgba(53, 24, 104, 1) 0%, rgba(53, 24, 104, 0.8)100%), url(img/bg-room.png.png);
+    /* bgr */
+    background-repeat: no-repeat;
+    /* bgp */
+    background-position: 165% 40%;
+}
+
+header {
+    height: 165px;
+
+
+}
+
+header div.container-grid {
+    /* porcetagem - Unidade relativa ao elemento pai */
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header img {
+    width: 234px;
+}
+
+.menu {
+    width: 700px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: #ffffff;
+
+    font-family: 'anta';
+    font-size: 18px;
+
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
+
+    transition: text-decoration 500ms ease;
+}
+
+.menu a:hover {
+    text-decoration-color: white;
+}
+
+.conteudo-banner {
+    /* altura deve ser 100 vh - altura do header */
+    /* coloquei 280px por fica mais legal */
+    height: calc(100vh - 280px);
+
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-banner p {
+    color: white;
+
+    font-family: 'anta';
+    font-size: 32px;
+}
+
+
+#sobre {
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: center;
+    padding: 100px 25%;
+}
+
+
+h2 {
+    font-family: 'anta';
+    font-size: 28px;
+}
+
+
+#sobre p {
+    font-family: 'montserrat';
+    font-size: 17px;
+
+    text-align: left;
+}
+
+#cases {
+    text-align: center;
+
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+#cases h2{
+
+    margin-bottom: 70px;
+}
+
+.container-cards {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    height: 400px;
+    width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--roxo-gamifica);
+
+    padding-bottom: 20px;
+    margin-bottom:  20px;
+
+    border-radius: 4px;
+
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.card img {
+    height: 55%;
+    width: 100%;
+
+    /* border-top-left-radius: 4px */
+    /* border-top-right-radius: 4px */
+    border-radius: 4px 4px 0px 0px;
+}
+
+.card p {
+    text-align: left;
+
+    font-family: 'montserrat';
+    font-size: 16px;
+
+    padding: 7%;
+
+    color: #ffffff;
+}
+
+.card button {
+    width: 90%;
+    height: 40px;
+
+    background-color: var(--laranja-gamifica);
+
+    border: none;
+    border-radius: 4px;
+
+    color: #ffffff;
+
+    font-family: 'montserrat';
+    font-size: 17px;
+    font-weight: 600;
+
+    cursor: pointer;
+    
+    transition: background-color 500ms;
+}
+
+.card button:hover {
+    background-color: #ad4929;
+}
+
+
