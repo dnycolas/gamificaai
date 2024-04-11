@@ -134,7 +134,7 @@ h2 {
     margin-bottom: 100px;
 }
 
-#cases h2{
+#cases h2 {
 
     margin-bottom: 70px;
 }
@@ -159,7 +159,7 @@ h2 {
     background-color: var(--roxo-gamifica);
 
     padding-bottom: 20px;
-    margin-bottom:  20px;
+    margin-bottom: 20px;
 
     border-radius: 4px;
 
@@ -203,7 +203,7 @@ h2 {
     font-weight: 600;
 
     cursor: pointer;
-    
+
     transition: background-color 500ms;
 }
 
@@ -212,3 +212,176 @@ h2 {
 }
 
 
+#portfolio {
+    height: 200px;
+
+    margin-bottom: 120px;
+
+    background-image: url(img/bonecos.png);
+    background-size: 250px;
+
+    background-repeat: repeat;
+
+    background-attachment: fixed;
+
+    position: relative;
+}
+
+.filtro {
+    height: 100%;
+    width: 100%;
+
+    background-color: #47208bc2;
+
+    position: absolute;
+    top: 0;
+
+}
+
+#portfolio .container-grid {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#portfolio a {
+    width: fit-content;
+
+    font-family: "anta";
+    font-size: 28px;
+
+    color: #ffffff;
+
+    z-index: 1;
+}
+
+#portfolio a:hover {
+    transform: scale(1.05);
+}
+
+#contato {
+    text-align: center;
+
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+#contato h2 {
+    margin-bottom: 70px;
+}
+
+#contato form {
+    width: 50%;
+
+    margin: 0 auto;
+    padding: 60px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 80px;
+
+
+    background-color: var(--roxo-gamifica);
+
+    color: white;
+    font-family: montserrat;
+}
+
+#contato form label {
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.campo {
+    width: 60%;
+
+    margin-bottom: 50px;
+
+    text-align: left;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.campo input {
+    height: 40px;
+
+    color: white;
+
+    background-color: #351868;
+
+    border: none;
+    border: 4px;
+
+    outline: none;
+
+    text-indent: 10px;
+
+    font-family: 'montserrat';
+    font-size: 17px;
+}
+
+.campo-textarea {
+    width: 60%;
+
+    margin-bottom: 30px;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.campo-textarea textarea {
+    color: white;
+    background-color: #351868;
+
+    border: none;
+    border-radius: 4px;
+
+    padding: 10px;
+
+    font-family: 'montserrat';
+    font-size: 17px;
+
+    outline: none;
+
+    resize: none;
+}
+
+.campo input:focus, .campo-textarea textarea:focus {
+    outline: 2px solid var(--laranja-gamifica);
+}
+
+
+#contato form button {
+    height: 40px;
+    width: 60%;
+
+    font-family: "montserrat";
+    font-size: 17px;
+    font-weight: 600;
+
+    color: white;
+    background-color: var(--laranja-gamifica);
+
+    border: none;
+    border-radius: 4px;
+
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: background-color 500ms ease;
+}
+
+#contato form button:hover {
+    background-color:#ad4929;
+}
