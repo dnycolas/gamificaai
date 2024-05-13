@@ -469,9 +469,18 @@ footer .container-grid{
     color: white;
 }
 
+
 .icones-redes a:hover {
     color: var(--laranja-gamifica   );
 } 
+
+.menu-fechado {
+    display: none;
+}
+
+#iconeBarra {
+    display: none;
+}
 
 @media screen and (max-width: 1300px) {
     header {
