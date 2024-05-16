@@ -15,7 +15,7 @@
     <script src="script.js" defer></script>
 </head>
 
-<body onload="renderizarCases()">
+<body onload="carregarCases()">
     <div class="banner">
         <header>
             <!-- class's pode ser reaproveitadas -->
@@ -88,12 +88,12 @@
             </div>
             <div class="campo">
                 <label for="campo-nome">Em qual email nós podemos te responder?</label>
-                <input type="email" name="" id="campo-nome" placeholder="Digite seu email...">
+                <input type="email" name="" id="campo-email" placeholder="Digite seu email...">
             </div>
             <div class="campo-textarea">
                 <label for="campo-nome">Descreva um pouco da sua empresa, e também o problema que está procurando
                     solucionar</label>
-                <textarea name="" id="campo-nome" cols="30" rows="10"
+                <textarea name="" id="campo-descricao" cols="30" rows="10"
                     placeholder="Descreva um pouco da sua empresa, e também o problema que enfrenta."></textarea>
             </div>
             <button type="submit">Enviar</button>

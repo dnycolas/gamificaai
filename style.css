@@ -46,15 +46,15 @@ html {
 }
 
 .primeiro-banner {
-    background-image: linear-gradient(90deg, rgba(53, 24, 104, 1) 0%, rgba(53, 24, 104, 0.8)100%), url(img/bg-room.png.png);  
+    background-image: linear-gradient(90deg, rgba(53, 24, 104, 1) 0%, rgba(53, 24, 104, 0.7)100%), url(img/bg-room.png.png);  
 }
 
 .segundo-banner {
-    background-image: linear-gradient(90deg, rgba(04, 104, 36, 1) 0%, rgba(04, 104, 36, 0.8)100%), url(img/bg-room.png.png);  
+    background-image: linear-gradient(90deg, rgba(53, 24, 104, 1) 0%, rgba(04, 104, 36, 0.7)100%), url(img/bg-room.png.png);  
 }
 
 .terceiro-banner {
-    background-image: linear-gradient(90deg, rgba(104, 24, 48, 1) 0%, rgba(104, 24, 48, 0.8)100%), url(img/bg-room.png.png);  
+    background-image: linear-gradient(90deg, rgba(53, 24, 104, 1) 0%, rgba(104, 24, 48, 0.7)100%), url(img/bg-room.png.png);  
 }
 
 
